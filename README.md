@@ -181,6 +181,8 @@ x402-native Model Context Protocol servers — AI agents pay per tool call, no A
 | [vindex-mcp](https://www.npmjs.com/package/vindex-mcp) | Data/Intelligence | Vehicle data over x402: VIN decode with warranty terms, recalls, reliability, and US/Canada purchase-cost estimates. USDC on Base. |
 | [isocast-mcp](https://www.npmjs.com/package/isocast-mcp) | Data/Intelligence | Per-signal Polymarket weather-market data across 37 cities, with market URLs and live bucket odds. USDC on Base. |
 | [moltalyzer-mcp](https://www.npmjs.com/package/moltalyzer-mcp) | Data/Intelligence | Polymarket and AI-agent-community intelligence: order-book movers, whale calibration, and multi-source digests. USDC on Base. |
+| [Storefront Grader MCP](https://grader-al6bxcngia-ue.a.run.app/mcp) | Marketing | MCP server `grade_storefront`: grades any storefront URL A–F across 20 weighted conversion-readiness checks. $1.00/call in USDC on Base via x402, no API keys. |
+| [GEO Audit MCP](https://geo-al6bxcngia-ue.a.run.app/mcp) | Marketing | MCP server `audit_geo`: scores any URL's visibility to AI search engines across 20 weighted checks and returns concrete fixes. $1.50/call in USDC on Base via x402, with a free rate-limited `audit_geo_lite` tier. |
 
 [Full MCP server directory →](directory/mcp-servers.md)
 
@@ -205,6 +207,8 @@ x402-payable APIs — pay per request, no subscriptions.
 | [Vindex](https://api.vindexapi.dev) | $0.01 | Vehicle-data API: VIN decode with factory warranty terms, recalls, known-issues/reliability, and US & Canada purchase-cost estimates. NHTSA and Transport Canada sources. USDC on Base. |
 | [Isocast](https://api.isocast.dev) | From $0.01 | Per-signal Polymarket weather-market data across 37 cities. Fires when a city's daily-high temperature crosses into a new Polymarket bucket, returning the market URL and live bucket odds. USDC on Base. |
 | [Moltalyzer](https://api.moltalyzer.xyz) | $0.01–$0.05 | Polymarket and AI-agent-community intelligence: order-book microstructure movers, whale hold-to-resolution calibration, and multi-source digests. USDC on Base. |
+| [Storefront Grader](https://grader-al6bxcngia-ue.a.run.app) | $1.00 | Pay-per-call storefront audit API: grades any storefront URL A–F across 20 weighted conversion-readiness checks. USDC on Base via x402 (PayAI facilitator), no API keys. |
+| [GEO Audit](https://geo-al6bxcngia-ue.a.run.app) | $1.50 | Pay-per-call AI-search visibility API: scores any URL's visibility to AI search engines across 20 weighted checks and returns concrete fixes. USDC on Base via x402, with a free rate-limited lite tier. |
 
 [Full API directory →](directory/apis.md)
 
